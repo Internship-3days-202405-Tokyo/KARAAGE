@@ -1,0 +1,67 @@
+body {
+  height: 100%;
+}
+.stickyBottomContainer {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 5dvh;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.stickyBottomButton {
+  margin-right: 15%;
+  background-color: #fff580;
+  margin-left: 15%;
+  height: 100%;
+}
+
+.btnWithColorBackground {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 68%;
+  margin: auto;
+  padding: 1rem 4rem;
+  font-weight: bold;
+  border: 2px solid #ffeb00;
+  background: #ffeb00;
+  color: #fff !important;
+  border-radius: 100vh;
+  transition: 0.5s;
+  text-decoration: none !important;
+  color: white !important;
+}
+.btnWithColorBackground:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #ffeb00 !important;
+}
+
+.normalBtn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 32%;
+  margin: auto;
+  padding: 1rem 4rem;
+  font-weight: bold;
+  border: 2px solid greenyellow;
+  background: #fff;
+  color: #fff !important;
+  border-radius: 100vh;
+  transition: 0.5s;
+  text-decoration: none !important;
+  color: greenyellow !important;
+}
+
+.normalBtn:hover {
+  cursor: pointer;
+  background-color: greenyellow;
+  color: #fff !important;
+}
