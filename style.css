@@ -1,5 +1,5 @@
 /* ヘッダー */
-header{
+header {
   width: 100%;
   height: auto;
 }
@@ -8,7 +8,7 @@ header{
   display: block;
 }
 
-.logo img{
+.logo img {
   margin: 5px;
   max-width: 80%;
 }
@@ -36,11 +36,30 @@ body {
   height: 100%;
 }
 
+.stickyTopContainer {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  width: 100%;
+  color: white;
+  height: 5dvh;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.stickyTopButton {
+  margin-right: 15%;
+  background-color: #fff580;
+  margin-left: 15%;
+  height: 100%;
+}
+
 .btnWithColorBackground {
   display: block;
   text-align: center;
   text-decoration: none;
-  width: 68%;
+  width: 60%;
   margin: auto;
   padding: 1rem 4rem;
   font-weight: bold;
@@ -62,7 +81,7 @@ body {
   display: block;
   text-align: center;
   text-decoration: none;
-  width: 32%;
+  width: 40%;
   margin: auto;
   padding: 1rem 4rem;
   font-weight: bold;
@@ -79,4 +98,48 @@ body {
   cursor: pointer;
   background-color: greenyellow;
   color: #fff !important;
+}
+
+.btnTarget {
+  display: block;
+  font-size: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  width: 33%;
+  margin: auto;
+  padding: 1rem 4rem;
+  font-weight: bold;
+  color: #fff !important;
+  border-radius: 1vh;
+  transition: 0.5s;
+  text-decoration: none !important;
+  color: white !important;
+}
+.btnTarget.father {
+  border: 2px solid #4a56ff;
+  background: #4a56ff;
+}
+.btnTarget.father:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #4a56ff !important;
+}
+.btnTarget.mother {
+  border: 2px solid #fa68b8;
+  background: #fa68b8;
+}
+.btnTarget.mother:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #fa68b8 !important;
+}
+
+.btnTarget.child {
+  border: 2px solid #19b921;
+  background: #19b921;
+}
+.btnTarget.child:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #19b921 !important;
 }
