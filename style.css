@@ -1,0 +1,17 @@
+#first-view-container {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#first-view-container-image {
+    max-width: 750;
+    margin: 0 auto;
+    height: auto;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    max-width: 750;
+}
