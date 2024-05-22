@@ -1,3 +1,18 @@
+/* ヘッダー */
+header{
+  width: 100%;
+  height: auto;
+}
+
+.logo a {
+  display: block;
+}
+
+.logo img{
+  margin: 5px;
+  max-width: 80%;
+}
+
 body {
   height: 100%;
 }
