@@ -50,9 +50,9 @@ main {
   margin-top: 20px;
 }
 
-.service-wrapper img,
-.service-wrapper p {
+.service-wrapper-sentences {
   width: 40%;
+  padding-top: 250px;
 }
 
 .service img,
@@ -110,6 +110,13 @@ body {
   color: rgb(13, 41, 58);
   margin: 0;
   padding: 0;
+}
+
+#first-view-container img{
+  width: 100%;
+  max-width: 750px;
+  display: block;
+  margin: auto;
 }
 
 @keyframes first-view-fade-in {
