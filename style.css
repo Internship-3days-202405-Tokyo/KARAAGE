@@ -26,12 +26,12 @@ main {
   width: 100%;
 }
 /* section {
-      background-color: #D3D3D3;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  } */
+        background-color: #D3D3D3;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
 
 .service-main-view {
   display: flex;
@@ -113,7 +113,7 @@ body {
   padding: 0;
 }
 
-#first-view-container img{
+#first-view-container img {
   width: 100%;
   max-width: 750px;
   display: block;
@@ -165,7 +165,8 @@ body {
   display: block;
   text-align: center;
   text-decoration: none;
-  width: 60%;
+  width: 55vw;
+  height: 8vh;
   margin: auto;
   padding: 1rem;
   font-weight: bold;
@@ -176,6 +177,7 @@ body {
   transition: 0.5s;
   text-decoration: none !important;
   color: white !important;
+  font-size: 1.5rem;
 }
 .btnWithColorBackground:hover {
   cursor: pointer;
@@ -197,6 +199,7 @@ body {
   color: #fff !important;
   border-radius: 100vh;
   transition: 0.5s;
+  font-size: 1.5rem;
   text-decoration: none !important;
   color: greenyellow !important;
 }
@@ -209,10 +212,11 @@ body {
 
 .btnTarget {
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
   width: 33%;
+  height: 10vh;
   margin: auto;
   padding: 1rem;
   font-weight: bold;
