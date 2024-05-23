@@ -32,11 +32,29 @@ main {
     flex-direction: column;
     align-items: center;
 } */
-.service-wrapper {
+.service-main-view {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 }
+
+.service-main-view img {
+  max-width: 60%;
+  /* height: auto; */
+}
+
+.service-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.service-wrapper img,
+.service-wrapper p {
+  width: 40%;
+}
+
 .service img,
 .service p {
   width: 48%;
