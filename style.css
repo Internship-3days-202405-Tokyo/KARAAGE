@@ -76,6 +76,10 @@ header {
 
 body {
   height: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 .stickyBottomContainer {
   position: fixed;
@@ -106,7 +110,6 @@ body {
   color: rgb(13, 41, 58);
   margin: 0;
   padding: 0;
-
 }
 
 @keyframes first-view-fade-in {
