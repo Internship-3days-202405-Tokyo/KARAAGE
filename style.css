@@ -50,9 +50,9 @@ main {
   margin-top: 20px;
 }
 
-.service-wrapper img,
-.service-wrapper p {
+.service-wrapper-sentences {
   width: 40%;
+  padding-top: 250px;
 }
 
 .service img,
