@@ -26,12 +26,12 @@ main {
   width: 100%;
 }
 /* section {
-    background-color: #D3D3D3;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
+      background-color: #D3D3D3;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  } */
 .service-main-view {
   display: flex;
   justify-content: center;
@@ -76,6 +76,10 @@ header {
 
 body {
   height: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 .stickyBottomContainer {
   position: fixed;
@@ -106,7 +110,6 @@ body {
   color: rgb(13, 41, 58);
   margin: 0;
   padding: 0;
-
 }
 
 @keyframes first-view-fade-in {
@@ -156,7 +159,7 @@ body {
   text-decoration: none;
   width: 60%;
   margin: auto;
-  padding: 1rem 4rem;
+  padding: 1rem;
   font-weight: bold;
   border: 2px solid #ffeb00;
   background: #ffeb00;
@@ -178,8 +181,9 @@ body {
   text-decoration: none;
   width: 40%;
   margin: auto;
-  padding: 1rem 4rem;
+  padding: 1rem;
   font-weight: bold;
+  font-size: 1rem;
   border: 2px solid greenyellow;
   background: #fff;
   color: #fff !important;
@@ -197,12 +201,12 @@ body {
 
 .btnTarget {
   display: block;
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-align: center;
   text-decoration: none;
   width: 33%;
   margin: auto;
-  padding: 1rem 4rem;
+  padding: 1rem;
   font-weight: bold;
   color: #fff !important;
   border-radius: 1vh;
