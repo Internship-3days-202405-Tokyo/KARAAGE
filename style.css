@@ -177,7 +177,7 @@ body {
   transition: 0.5s;
   text-decoration: none !important;
   color: white !important;
-  font-size: 1.5rem;
+  font-size: max(3vh, 3vw);
   justify-content: center;
 }
 .btnWithColorBackground:hover {
@@ -190,7 +190,8 @@ body {
   display: block;
   text-align: center;
   text-decoration: none;
-  width: 40%;
+  width: 55vw;
+  height: 8vh;
   margin: auto;
   padding: 1rem;
   font-weight: bold;
@@ -200,7 +201,7 @@ body {
   color: #fff !important;
   border-radius: 100vh;
   transition: 0.5s;
-  font-size: 1.5rem;
+  font-size: max(3vh, 3vw);
   text-decoration: none !important;
   color: greenyellow !important;
 }
