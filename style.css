@@ -15,23 +15,12 @@ main {
   width: 100%;
   justify-content: space-around;
   padding: 10px 0;
+  margin-top: 2rem;
 }
 .navigation button {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
-}
-.navigation button:nth-child(1) {
-  background-color: #4682b4;
-  color: white;
-}
-.navigation button:nth-child(2) {
-  background-color: #ffa500;
-  color: white;
-}
-.navigation button:nth-child(3) {
-  background-color: #008b8b;
-  color: white;
 }
 main {
   width: 100%;
