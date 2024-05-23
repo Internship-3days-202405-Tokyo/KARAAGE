@@ -237,6 +237,28 @@ body {
 }
 
 footer {
-  height: max(20vh, 20vw);
+  height: max(25vh, 25vw);
   background-color: #122939;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: max(5vh, 5vw);
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+.footerLinks a {
+  text-decoration: none !important;
+  color: white !important;
+}
+.footerLinks a:hover {
+  color: #ffeb00 !important;
+}
+.footerCopyRight {
+  margin-top: max(5vh, 5vw);
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
