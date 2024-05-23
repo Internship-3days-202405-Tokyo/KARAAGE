@@ -112,6 +112,13 @@ body {
   padding: 0;
 }
 
+#first-view-container img{
+  width: 100%;
+  max-width: 750px;
+  display: block;
+  margin: auto;
+}
+
 @keyframes first-view-fade-in {
   0% {
     opacity: 0;
