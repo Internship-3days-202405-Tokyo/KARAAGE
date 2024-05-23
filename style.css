@@ -47,8 +47,17 @@ main {
 .service-wrapper {
   display: flex;
   justify-content: center;
-  width: 100%;
   margin-top: 20px;
+}
+
+.service-wrapper img {
+    border-radius: 30px;
+    width: 500px;
+}
+
+.service-wrapper-ex img {
+  border-radius: 30px;
+    width: 500px;
 }
 
 .service-wrapper-sentences {
@@ -299,4 +308,8 @@ footer {
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+h1 {
+    text-align: center;
 }
