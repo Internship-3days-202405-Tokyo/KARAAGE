@@ -255,14 +255,14 @@ body {
 }
 
 footer {
-  height: max(25vh, 25vw);
+  height: 16rem;
   background-color: #122939;
 }
 
 .footerLinks {
   display: flex;
   justify-content: space-evenly;
-  padding-top: max(5vh, 5vw);
+  padding-top: 3rem;
   margin-right: 5vw;
   margin-left: 5vw;
 }
@@ -274,7 +274,7 @@ footer {
   color: #ffeb00 !important;
 }
 .footerCopyRight {
-  margin-top: max(5vh, 5vw);
+  margin-top: 3rem;
   color: white;
   display: flex;
   text-align: center;
